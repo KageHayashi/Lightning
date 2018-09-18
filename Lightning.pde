@@ -9,7 +9,7 @@ void setup() {
 }
 
 void draw() {
-  stroke((int)Math.random()*255);
+  stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
   while (endX < 300) {
     endX = startX + (int)(Math.random()*10);
     endY = startY + (int)(Math.random()*18-9);
